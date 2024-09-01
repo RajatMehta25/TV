@@ -1,4 +1,4 @@
-'[{"link":"https://koora.vip/share.php?ch=main_1", channel_name:"s.main event"}
+'[{"link":"https://koora.vip/share.php?ch=main_1", channel_name:"s.main event"},
 {"link":"https://koora.vip/share.php?ch=skypl_1" , channel_name:"s.sport pl"},
 {"link":"https://koora.vip/share.php?ch=superf_1" , channel_name:"s.sport f"},
 {"link":"https://koora.vip/share.php?ch=pro1_1" , channel_name:"eleven sport hd"},
