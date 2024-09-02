@@ -25,6 +25,15 @@
   "link":"https://koora.vip/share.php?ch=tv2_1" , "channel_name":"sport tv 2"
 },
 {"link":"https://koora.vip/share.php?ch=dazn1fr_1" , "channel_name":"dazn 1 fr"
-}
+},
+    {
+  "link":"https://koora.vip/share.php?ch=liga_1", "channel_name":"La liga"
+},
+      {
+"link":"https://koora.vip/share.php?ch=daznde1_1", "channel_name":"Bundesliga"
+},
+     {
+"link":"https://koora.vip/share.php?ch=daznit_1", "channel_name":"Serie A"
+},
 ]
 }
