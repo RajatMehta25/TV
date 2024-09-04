@@ -1,0 +1,20 @@
+.CardContainerHover:hover {
+  transition: all 100ms ease;
+  transform: scale(1.25);
+  box-shadow: 0 0 8px rgba(245, 245, 245, 0.951);
+}
+
+/* transform: "scale(1.05)",
+    // boxShadow: "0 0 8px rgba(0, 0, 0, 0.5)",
+    shadowColor: "#fff",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.32,
+    shadowRadius: 5.46,
+
+    elevation: 9, */
+.CardContainerHover {
+  color: white;
+}
