@@ -1,4 +1,16 @@
-import { Image, StyleSheet, Platform, ScrollView, RefreshControl, SafeAreaView, TextInput, Button } from "react-native";
+import {
+  Image,
+  StyleSheet,
+  Platform,
+  ScrollView,
+  RefreshControl,
+  SafeAreaView,
+  TextInput,
+  Button,
+  Pressable,
+  Text,
+  PermissionsAndroid,
+} from "react-native";
 
 import { HelloWave } from "@/components/HelloWave";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
@@ -6,6 +18,7 @@ import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
 import { TvCard } from "@/components/TvCard";
 import { useEffect, useState, useCallback, ReactEventHandler } from "react";
+import Voice from "@react-native-voice/voice";
 
 type MyData = {
   link: string;
@@ -18,6 +31,8 @@ export default function HomeScreen() {
 
   const [refreshing, setRefreshing] = useState(false);
   const [search, onChangeSearch] = useState("");
+  const [result, setResult] = useState("");
+  const [isLoading, setLoading] = useState(false);
 
   const onRefresh = useCallback(() => {
     setRefreshing(true);
@@ -34,12 +49,69 @@ export default function HomeScreen() {
         onChangeSearch("");
       });
   }, [refreshing]);
+
   const searchChannel = (data: MyData[] | null) => {
     let newData = data?.filter((ele) => ele.channel_name.toLowerCase().includes(search.toLowerCase()));
 
     // setFilteredData(newData ?? data);
     return newData;
   };
+
+  const speechStartHandler = (e: any) => {
+    console.log("speechStart successful", e);
+  };
+
+  const speechEndHandler = (e: any) => {
+    // setLoading(false);
+    // console.log("stop handler", e);
+    // speechResultsHandler(e);
+    // stopRecording();
+  };
+
+  const speechResultsHandler = (e: any) => {
+    const text = e.value[0];
+    // setResult(text);
+    onChangeSearch(text);
+  };
+
+  const startRecording = async () => {
+    setLoading(true);
+    try {
+      await Voice.start("en-Us");
+    } catch (error) {
+      console.log("error", error);
+    }
+  };
+
+  const stopRecording = async () => {
+    try {
+      await Voice.stop();
+      Voice.removeAllListeners();
+      setLoading(false);
+    } catch (error) {
+      console.log("error", error);
+    }
+  };
+
+  const clear = () => {
+    // setResult("");
+    onChangeSearch("");
+  };
+  useEffect(() => {
+    Voice.onSpeechStart = speechStartHandler;
+    // Voice.onSpeechEnd = speechEndHandler;
+    Voice.onSpeechEnd = stopRecording;
+
+    Voice.onSpeechResults = speechResultsHandler;
+    const androidPermission = async () => {
+      const hasPermission = await PermissionsAndroid.check(PermissionsAndroid.PERMISSIONS.RECORD_AUDIO);
+    };
+    androidPermission();
+    return () => {
+      Voice.destroy().then(Voice.removeAllListeners);
+    };
+  }, []);
+
   return (
     <SafeAreaView style={styles.MainContainer}>
       <ThemedView style={styles.MainContainer}>
@@ -54,7 +126,7 @@ export default function HomeScreen() {
             </ThemedText>
             <Button title="TV Refresh" onPress={onRefresh} />
           </ThemedView>
-          <ThemedView style={styles.stepContainer}>
+          <ThemedView style={[styles.stepContainer, styles.VoiceContainer]}>
             <TextInput
               style={styles.input}
               onChangeText={(e) => {
@@ -70,7 +142,21 @@ export default function HomeScreen() {
               placeholder="Search Channel Name"
               placeholderTextColor="white"
             />
-
+            {!isLoading ? (
+              <Pressable style={styles.VoiceButton} onPress={startRecording}>
+                <Text style={{ fontSize: 25 }}>🎙️</Text>
+              </Pressable>
+            ) : (
+              <Pressable
+                style={styles.VoiceButton}
+                onPress={() => {
+                  stopRecording();
+                  clear();
+                }}
+              >
+                <Text style={{ fontSize: 22 }}>❌</Text>
+              </Pressable>
+            )}
             {/* <ThemedText>
           Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes. Press{" "}
           <ThemedText type="defaultSemiBold">{Platform.select({ ios: "cmd + d", android: "cmd + m" })}</ThemedText> to open
@@ -139,6 +225,7 @@ const styles = StyleSheet.create({
     borderColor: "white",
     borderRadius: 50,
     paddingStart: 20,
+    flex: 1,
   },
   ButtonContainer: {
     flexDirection: "row",
@@ -150,5 +237,13 @@ const styles = StyleSheet.create({
     // flexDirection: "row",
     textAlign: "center",
     borderRadius: 20,
+  },
+  VoiceContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  VoiceButton: {
+    borderRadius: 50,
+    paddingRight: 30,
   },
 });
