@@ -1,4 +1,5 @@
-  {
+{
+  "data": [  {
       id: '1',
       title: 'Sundari 1',
       image:
@@ -40,4 +41,6 @@
       title: 'Sundari 7',
       image:
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIN1gwlCld-PW_qX5QxwNMdPUff8gYhTOe8w&s',
-    },
+    }
+  ]
+}
