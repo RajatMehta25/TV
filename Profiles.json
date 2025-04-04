@@ -1,0 +1,43 @@
+  {
+      id: '1',
+      title: 'Sundari 1',
+      image:
+        'https://i.pinimg.com/736x/3d/c5/fb/3dc5fb89281b39037074316447e33d84.jpg',
+    },
+    {
+      id: '2',
+      title: 'Sundari 2',
+      image:
+        'https://images.pexels.com/photos/1391498/pexels-photo-1391498.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+    },
+
+    {
+      id: '3',
+      title: 'Sundari 3',
+      image:
+        'https://alternativesforgirls.org/wp-content/uploads/2023/08/slide-3.jpg',
+    },
+    {
+      id: '4',
+      title: 'Sundari 4',
+      image:
+        'https://assets.vogue.in/photos/5ce435fecc50be4b0d1402b4/2:3/w_2560%2Cc_limit/Shivani-the-Indian-artist-from-Now-United.jpg',
+    },
+    {
+      id: '5',
+      title: 'Sundari 5',
+      image:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIN1gwlCld-PW_qX5QxwNMdPUff8gYhTOe8w&s',
+    },
+    {
+      id: '6',
+      title: 'Sundari 6',
+      image:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIN1gwlCld-PW_qX5QxwNMdPUff8gYhTOe8w&s',
+    },
+    {
+      id: '7',
+      title: 'Sundari 7',
+      image:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIN1gwlCld-PW_qX5QxwNMdPUff8gYhTOe8w&s',
+    },
