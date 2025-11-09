@@ -60,37 +60,51 @@
     
    
       {
-        "image":"",
+        "image":"https://m.media-amazon.com/images/M/MV5BNTdjZGUxMTItNjRkNS00N2VhLWE4MjMtMjVhODMwMGIxNjUwXkEyXkFqcGc@._V1_.jpg",
       "playLink": "https://www.vidking.net/embed/movie/1242898",
       "name": "Predator 2025"
     },
     
    
       {
-        "image":"",
-      "playLink": "https://www.vidking.net/embed/tv/66732/5/1",
-      "name": "Sranger Things 5"
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbSETToc8wb8t3DptfBsi8Fe4cXx5cHarBj1RQ24-7s0q7CZ2llRqh2x0mIfuCaHRhC9E&usqp=CAU",
+      "playLink": "https://www.vidking.net/embed/tv/66732/1/1?episodeSelector=true",
+      "name": "Sranger Things"
     },
     
    
       {
-        "image":"",
-      "playLink": "https://www.vidking.net/embed/movie/1015981",
-      "name": "Jolly llb 3"
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwssZUS7AYuGaICIacOy7pHBbNC6OGFYySbuNSPg6rhtPFJieOFeSMDAftUBL6RquYHQA&usqp=CAU",
+      "playLink": "https://www.vidking.net/embed/movie/1186350",
+      "name": "Marco"
     },
     
    
       {
-        "image":"",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzKDOhOKsrp9aPcrtjdZbFkFtltZZfB_Nsq3oSmJVlSz7DFD7dNxsUl15UkYZv0maX96pv&s=10",
       "playLink": "https://www.vidking.net/embed/tv/119051/1/1?episodeSelector=true",
-      "name": "Wednesday S01"
+      "name": "Wednesday"
     },
     
    
       {
-        "image":"",
+        "image":"https://m.media-amazon.com/images/M/MV5BZWE0ZWM1MjUtNmYzYS00NzU3LTkxYmQtNmI3NTc0ZTY1NmVlXkEyXkFqcGc@._V1_.jpg",
       "playLink": "https://www.vidking.net/embed/tv/200875/1/1?episodeSelector=true",
       "name": "IT 2025"
+    },
+    
+   
+      {
+        "image":"https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "playLink": "https://www.vidking.net/embed/tv/1399/1/1?episodeSelector=true",
+      "name": "Game of Thrones"
+    },
+    
+   
+      {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMD-En_5i2eMnPj2MCzqCdXNxfT1tYqcJ2_5aMDfVyq76b-oP6NMzKIV_0WZXfR9oYp9udRA&s=10",
+      "playLink": "https://www.vidking.net/embed/movie/1234821",
+      "name": "Jurrasic World 2025"
     }
   ]
 }
