@@ -133,6 +133,41 @@
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRozXRE4oMmMybGPC4WQkMHMmU8j0Qsg9HYJQCozi1Cg3Mha7j5oI-TliQhDeQR460I3ih87Q&s=10",
       "playLink": "https://www.vidking.net/embed/tv/93352/1/1?episodeSelector=true&nextEpisode=true",
       "name": "The Family Man"
+    },
+    
+   
+      {
+        "image":"https://m.media-amazon.com/images/M/MV5BM2NlZDUwNzAtZTgyYi00YjhlLThhZTEtYTIxMzdjZjVkOTI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "playLink": "https://www.vidking.net/embed/tv/103051/1/1?episodeSelector=true&nextEpisode=true",
+      "name": "Pataal Lok"
+    },
+    
+   
+      {
+        "image":"https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWkngpyoPyufx7E05fGiyFFqYg2ONU0HEfKa6zBKeLy7sTlnBzCDw3PxBsl2fCTUoWegGBHIgPfN37sL8sOzlo1uSenk16JXbKVQEfCMYLnqyjHfnZ9zX7h5UMmjA3n_heFPfQ.jpg?r=609",
+      "playLink": "https://www.vidking.net/embed/tv/93405/1/1?episodeSelector=true&nextEpisode=true",
+      "name": "Squid Game"
+    },
+    
+   
+      {
+        "image":"https://media.themoviedb.org/t/p/w600_and_h900_bestv2/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg",
+      "playLink": "https://www.vidking.net/embed/tv/87739/1/1?episodeSelector=true&nextEpisode=true",
+      "name": "Queen's Gambit"
+    },
+    
+   
+      {
+        "image":"https://media.themoviedb.org/t/p/w600_and_h900_bestv2/qYGIf2QAhSIa5Xbf72QvLtte2e8.jpg",
+      "playLink": "https://www.vidking.net/embed/tv/82596/1/1?episodeSelector=true&nextEpisode=true",
+      "name": "Emily in Paris"
+    },
+    
+   
+      {
+        "image":"https://media.themoviedb.org/t/p/w600_and_h900_bestv2/fSzx4a6pC3QCOkU6NnWE2843hZV.jpg",
+      "playLink": "https://www.vidking.net/embed/tv/90966/1/1?episodeSelector=true&nextEpisode=true",
+      "name": "Gullak"
     }
   ]
 }
