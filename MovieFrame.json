@@ -175,6 +175,14 @@
         "image":"https://media.themoviedb.org/t/p/w600_and_h900_bestv2/6LWtSm2VHfenFBMvmjG9GYgfvSd.jpg",
       "playLink": "https://www.vidking.net/embed/tv/247769/1/1?episodeSelector=true&nextEpisode=true",
       "name": "Kapil Sharma"
+    },
+    
+   
+      {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMlT5ttgREKTe57nl7cmUsTHGPuM3VvXMSmEBAIvwZlM9Bu-LJQt8lqh-Eir12GnjJWXLcNA&s=10",
+      "playLink": "https://www.vidking.net/embed/tv/101352/1/1?episodeSelector=true&nextEpisode=true",
+      "name": "Panchayat"
     }
+  
   ]
 }
