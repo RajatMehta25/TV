@@ -241,8 +241,13 @@
    
       {
         "image":"https://media.themoviedb.org/t/p/w600_and_h900_bestv2/fSzx4a6pC3QCOkU6NnWE2843hZV.jpg",
-      "playLink": "https://player2.vidplus.pro/embed/tv/90966/1/1?episodeSelector=true&nextEpisode=true",
+      "playLink": "https://player2.vidplus.pro/embed/tv/90966/1/1?episodelist=true",
       "name": "Gullak"
+    },
+      {
+        "image":"https://media.themoviedb.org/t/p/w600_and_h900_bestv2/fSzx4a6pC3QCOkU6NnWE2843hZV.jpg",
+      "playLink": "https://nhdapi.com/embed/tv/90966/5/1?episodelist=true",
+      "name": "Gullak S5"
     },
     
    
@@ -250,6 +255,11 @@
         "image":"https://media.themoviedb.org/t/p/w600_and_h900_bestv2/6LWtSm2VHfenFBMvmjG9GYgfvSd.jpg",
       "playLink": "https://nhdapi.com/embed/tv/247769/1/1?episodelist=true",
       "name": "Kapil Sharma"
+    },
+     {
+        "image":"https://media.themoviedb.org/t/p/w600_and_h900_bestv2/6LWtSm2VHfenFBMvmjG9GYgfvSd.jpg",
+      "playLink": "https://nhdapi.com/embed/tv/247769/4/1?episodelist=true",
+      "name": "Kapil Sharma S4"
     },
     
    
